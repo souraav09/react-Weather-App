@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom, #87ceeb, #f0f8ff); /* sky background */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-container {
+  margin: auto; /* ➕ Add this */
+  padding: 2rem 1rem;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 20px;
+}
+
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+@media (max-width: 400px) {
+  .app-container {
+    padding: 1.5rem 1rem;
+  }
+}
+
